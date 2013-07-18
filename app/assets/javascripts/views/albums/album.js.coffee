@@ -1,7 +1,14 @@
 class MusicPlayer.Views.AlbumView extends Backbone.View
 
   template: JST['albums/album']
+  tagName: 'li'
+  className: 'album'
+
+#TODO: The view WONT update when model changes
+  intit: ->
+    @model.on('change', @render, this)
+
 
   render: ->
-    $(@el).html(@template(model: @model.toJSON()));
+    @.$el.html(@template(model: @model.toJSON()))
     this
