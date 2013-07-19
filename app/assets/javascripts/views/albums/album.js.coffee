@@ -4,12 +4,15 @@ class MusicPlayer.Views.AlbumView extends Backbone.View
   tagName: 'li'
   className: 'album'
 
-#TODO: The view WONT update when model changes
+
 
   initialize: ->
     @model.on('change', @render, this)
 
 
   render: ->
+
+#TODO: This is where the problem is
+
     @.$el.html(@template(model: @model.toJSON()))
     this
