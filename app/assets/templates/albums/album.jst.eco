@@ -1,6 +1,10 @@
 <span class="album-title"><%= @model.title %></span>
 <span class="artist-name"><%= @model.artist %></span>
+
 <ol class="tracks">
+
 <% for track in @model.tracks:%>
   <li><%= track.title %></li>
+<% end %>
+
 </ol>

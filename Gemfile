@@ -39,3 +39,5 @@ end
 gem 'backbone-on-rails'
 gem 'jquery-rails'
 gem 'annotate', '>=2.5.0'
+
+

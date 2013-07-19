@@ -1,7 +1,8 @@
 MusicPlayer::Application.routes.draw do
-
-  resources :albums do
-    resources :tracks
+  scope '/api/' do
+    resources :albums do
+      resources :tracks
+    end
   end
 
   root to: "main#index"
