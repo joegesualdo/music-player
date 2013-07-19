@@ -28,6 +28,8 @@ GEM
     activesupport (3.2.13)
       i18n (= 0.6.1)
       multi_json (~> 1.0)
+    annotate (2.5.0)
+      rake
     arel (3.0.2)
     backbone-on-rails (1.0.0.0)
       eco
@@ -114,6 +116,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotate (>= 2.5.0)
   backbone-on-rails
   coffee-rails (~> 3.2.1)
   jquery-rails

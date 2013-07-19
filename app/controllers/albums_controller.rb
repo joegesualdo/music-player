@@ -1,4 +1,4 @@
-class AlbumController < ApplicationController
+class AlbumsController < ApplicationController
   respond_to :json
   def index
     @albums = Album.all
@@ -6,8 +6,18 @@ class AlbumController < ApplicationController
   end
 
   def show
+    @album = Album.find(params[:id])
+    respond_with @album
   end
 
   def update
+  end
+
+  def create
+
+  end
+
+  def destroy
+
   end
 end

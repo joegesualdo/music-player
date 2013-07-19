@@ -5,7 +5,8 @@ class MusicPlayer.Views.AlbumView extends Backbone.View
   className: 'album'
 
 #TODO: The view WONT update when model changes
-  intit: ->
+
+  initialize: ->
     @model.on('change', @render, this)
 
 
