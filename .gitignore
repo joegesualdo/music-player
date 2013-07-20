@@ -13,3 +13,7 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore Rubymine's workspace.xml 
+
+/.idea/workspace.xml
