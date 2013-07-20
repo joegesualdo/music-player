@@ -4,7 +4,11 @@ window.MusicPlayer =
   Views: {}
   Routers: {}
   initialize: ->
-    console.log 'Hello from Backbone!'
+    new MusicPlayer.Routers.MainRouter()
+    Backbone.history.start()
 
 $(document).ready ->
   MusicPlayer.initialize()
+#  This is how i initialized view on page
+
+

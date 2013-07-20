@@ -3,7 +3,9 @@ class MusicPlayer.Views.LibraryView extends Backbone.View
   tagName: 'section'
   className: 'library'
   initialize: ->
+  #TODO: Collection not updating when we fetch() the library, but it is when whe call fetch({remote: true})
     @collection.on('reset', @render, this)
+
   render: ->
     collection = @collection
     @.$el.html(@template({collection: collection}))
