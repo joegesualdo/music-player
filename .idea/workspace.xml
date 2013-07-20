@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87433600-2e57-476e-aede-788449c0e541" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130718231819_create_albums.rb" afterPath="$PROJECT_DIR$/db/migrate/20130718231819_create_albums.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/routers/main_router.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/routers/main_router.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/music-player.iml" afterPath="$PROJECT_DIR$/.idea/music-player.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/music_player.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/music_player.js.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="music-player.iws" />
@@ -13,7 +11,7 @@
     <file path="/Dummy.txt" changelist="87433600-2e57-476e-aede-788449c0e541" time="1374324295060" ignored="false" />
     <file path="/album.js.coffee" changelist="87433600-2e57-476e-aede-788449c0e541" time="1374255707843" ignored="false" />
     <file path="/album.jst.eco" changelist="87433600-2e57-476e-aede-788449c0e541" time="1374257713234" ignored="false" />
-    <file path="/music_player.js.coffee" changelist="87433600-2e57-476e-aede-788449c0e541" time="1374264392944" ignored="false" />
+    <file path="/music_player.js.coffee" changelist="87433600-2e57-476e-aede-788449c0e541" time="1374331962403" ignored="false" />
     <file path="/main.css.scss" changelist="87433600-2e57-476e-aede-788449c0e541" time="1374176803135" ignored="false" />
     <file path="/albums.js.coffee" changelist="87433600-2e57-476e-aede-788449c0e541" time="1374181854232" ignored="false" />
     <file path="/album_controller.rb" changelist="87433600-2e57-476e-aede-788449c0e541" time="1374189215761" ignored="false" />
@@ -31,7 +29,7 @@
     <file path="/library_album.js.coffee" changelist="87433600-2e57-476e-aede-788449c0e541" time="1374251372587" ignored="false" />
     <file path="/albums_router.js.coffee" changelist="87433600-2e57-476e-aede-788449c0e541" time="1374264530044" ignored="false" />
     <file path="/seeds.rb" changelist="87433600-2e57-476e-aede-788449c0e541" time="1374325203889" ignored="false" />
-    <file path="/main_router.js.coffee" changelist="87433600-2e57-476e-aede-788449c0e541" time="1374326665878" ignored="false" />
+    <file path="/main_router.js.coffee" changelist="87433600-2e57-476e-aede-788449c0e541" time="1374331861901" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +56,15 @@
     <leaf>
       <file leaf-file-name="20130719002105_add_album_id_to_tracks.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20130719002105_add_album_id_to_tracks.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="album.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/models/album.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -101,10 +108,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_router.js.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main_router.js.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routers/main_router.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="24" selection-start="176" selection-end="176" vertical-scroll-proportion="0.14376996">
+            <state line="3" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="music_player.js.coffee" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/music_player.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="27" selection-start="163" selection-end="163" vertical-scroll-proportion="0.17412935">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="albums.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/collections/albums.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -140,10 +165,10 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/album.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/views/albums/library.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/routers/albums_router.js.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/music_player.js.coffee" />
         <option value="$PROJECT_DIR$/db/migrate/20130718231819_create_albums.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/routers/main_router.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/music_player.js.coffee" />
       </list>
     </option>
   </component>
@@ -854,18 +879,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/templates/albums/library_album.jst.eco">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/views/albums/library_album.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/templates/albums/album.jst.eco">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
@@ -897,13 +910,6 @@
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/music_player.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -957,9 +963,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/collections/albums.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/models/album.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routers/main_router.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="176" selection-end="176" vertical-scroll-proportion="0.14376996">
+        <state line="3" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/music_player.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="27" selection-start="163" selection-end="163" vertical-scroll-proportion="0.17412935">
           <folding />
         </state>
       </provider>

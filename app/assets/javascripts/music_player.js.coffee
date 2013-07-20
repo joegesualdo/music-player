@@ -4,7 +4,7 @@ window.MusicPlayer =
   Views: {}
   Routers: {}
   initialize: ->
-    App = new MusicPlayer.Routers.MainRouter()
+    new MusicPlayer.Routers.MainRouter()
     Backbone.history.start()
 
 $(document).ready ->

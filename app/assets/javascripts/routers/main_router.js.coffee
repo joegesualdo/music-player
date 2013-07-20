@@ -2,6 +2,7 @@ class MusicPlayer.Routers.MainRouter extends Backbone.Router
   routes:
     '':'home'
 
+
   initialize: ->
     library = new MusicPlayer.Collections.Albums
     library.fetch({reset: true})
@@ -13,3 +14,4 @@ class MusicPlayer.Routers.MainRouter extends Backbone.Router
     $container = $('#container')
     $container.empty()
     $container.append(@libraryView.render().el)
+
