@@ -1,3 +1,5 @@
+<button class="add queue"><img src='/assets/add.png' /></button>
+<button class="remove queue"><img src='/assets/remove.png' /></button>
 <span class="album-title"><%= @model.title %></span>
 <span class="artist-name"><%= @model.artist %></span>
 

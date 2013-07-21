@@ -12,7 +12,5 @@ class MusicPlayer.Views.AlbumView extends Backbone.View
 
   render: ->
 
-#TODO: This is where the problem is
-
     @.$el.html(@template(model: @model.toJSON()))
     this
