@@ -1,4 +1,6 @@
 MusicPlayer::Application.routes.draw do
+  match '/api/tracks', to: 'tracks#all'
+
   scope '/api/' do
     resources :albums do
       resources :tracks

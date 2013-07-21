@@ -3,8 +3,9 @@ class TracksController < ActionController::Base
   respond_to :json
 
   def index
-    @tracks = Track.all
+    @tracks = Track.where(album_id: params[:album_id])
     respond_with @tracks
+
   end
 
   def show
@@ -22,5 +23,10 @@ class TracksController < ActionController::Base
 
   def create
 
+  end
+
+  def all
+    @tracks = Track.all
+    respond_with @tracks
   end
 end
