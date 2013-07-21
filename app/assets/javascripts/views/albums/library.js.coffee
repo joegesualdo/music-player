@@ -14,6 +14,8 @@ class MusicPlayer.Views.LibraryView extends Backbone.View
       console.log(album)
       view = new MusicPlayer.Views.LibraryAlbumView({
         model: album
+      #TODO: Why do we pass in a collection?
+        collection: collection
       })
       console.log(view)
       $('.albums').append(view.render().el)
