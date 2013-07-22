@@ -4,7 +4,7 @@ class MusicPlayer.Models.Album extends Backbone.Model
     index == 0
   isLastTrack: (index) ->
     index >= this.get('tracks').length - 1
-  trackUrlIndex: (index) ->
+  trackUrlAtIndex: (index) ->
     if (this.get('tracks').length >= index)
       this.get('tracks')[index].url
     null
