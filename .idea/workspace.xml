@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87433600-2e57-476e-aede-788449c0e541" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/views/albums/library.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/views/albums/library.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/routers/main_router.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/routers/main_router.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/music-player.iml" afterPath="$PROJECT_DIR$/.idea/music-player.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="87433600-2e57-476e-aede-788449c0e541" name="Default" comment="" />
     <ignored path="music-player.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="87433600-2e57-476e-aede-788449c0e541" time="1374502119751" ignored="false" />
