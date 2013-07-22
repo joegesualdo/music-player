@@ -9,6 +9,7 @@ class MusicPlayer.Views.LibraryView extends Backbone.View
   render: ->
     collection = @collection
     @.$el.html(@template({collection: collection}))
+    $albums = @$(".albums")
 
     collection.each (album) ->
       console.log(album)
@@ -18,7 +19,7 @@ class MusicPlayer.Views.LibraryView extends Backbone.View
         collection: collection
       })
       console.log(view)
-      $('.albums').append(view.render().el)
+      $albums.append(view.render().el)
 
     this
 

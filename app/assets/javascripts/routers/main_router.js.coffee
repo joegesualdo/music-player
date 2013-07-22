@@ -5,8 +5,8 @@ class MusicPlayer.Routers.MainRouter extends Backbone.Router
 
   initialize: ->
     library = new MusicPlayer.Collections.Albums
-    player = new MusicPlayer.Models.Player
     library.fetch({reset: true})
+    player = new MusicPlayer.Models.Player
     @libraryView = new MusicPlayer.Views.LibraryView({
       collection: library
     })
